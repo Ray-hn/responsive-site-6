@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    resize: none;
+}
+.hr-style{
+
+    width: 100px;
+    border: 5px dotted white;
+    border-bottom: none;   
+}
+/* features start here */
+#features{
+    margin-top: 150px;
+    padding: 5% 10%;
+    background-color: #e8ded2;
+}
+.features-col h5{
+    margin-top: 10px;
+    font-size: 22px;
+}
+.features-col{
+    border: 1px solid #ff02c0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0px;
+    transition: .04s;
+    height: 40vh;
+}
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+.icon-style{
+    background-color: #bb0aac;
+    color: white;
+    padding: 15px;
+    margin: 5px;
+}
+/* features end here */
+/* about me start here */
+#about-me{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.section-title h3{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 45px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.basic-desc p{
+    line-height: 15px;
+}
+.basic-desc h5{
+    margin-top: 20px;
+}
+.basic-desc button{
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.Achievement{
+    margin-left: 40px;
+}
+.Achievement p{
+    line-height: 20px;
+}
+.desc{
+    margin-top: 30px;
+}
+.carouselExampleSlidesOnly img{
+    height: 400px;
+    width: 500px;
+}
+/* title part start here */
+/* /* skill start here */
+#skill table{
+   margin-left: 40px;
+   width: 90%;
+}
+/* skill end here */
+/* title part end here */
+
+/* contact start */
+#contact{
+    padding: 2% 10%;
+    background: #5eaaa8;
+}
+#contact textarea{
+    resize: none;
+    outline:none ;
+}
+#contact .btn{
+    margin-top: 15px;
+    
+}
+.form-group label{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+/* footer part start here */
+footer{
+    padding: 1% 10%;
+    background-color: #056676;
+}
+footer a{
+    color: white;
+    margin: 0 10px;
+}
+footer a:hover{
+    color: black;
+}
+/* footer part end here */
